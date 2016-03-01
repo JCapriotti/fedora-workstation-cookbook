@@ -1,0 +1,15 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: fedora-23
+
+suites:
+  - name: default
+    run_list:
+      - recipe[fedora-workstation::default]
+    attributes:
