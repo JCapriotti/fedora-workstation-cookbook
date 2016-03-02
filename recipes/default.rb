@@ -10,7 +10,9 @@ end
 
 execute 'dnf -y remove rhythmbox'
 execute 'dnf -y remove cheese'
+execute 'dnf -y remove firefox'
 
 execute 'dnf -y install @cinnamon-desktop'
 execute 'dnf -y install google-chrome-stable'
 execute 'dnf -y install meld'
+execute 'dnf -y install terminator'
