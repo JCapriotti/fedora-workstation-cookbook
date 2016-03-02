@@ -11,5 +11,5 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[fedora-workstation::default]
+      - recipe[fedora_workstation_test::default]
     attributes:
